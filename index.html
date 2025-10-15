@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Birthday Letter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <div class="envelope" id="envelope">
+
+        <div class="seal" id="seal">
+            <i class="fas fa-heart"></i>
+        </div>
+
+        <div class="letter-container" id="letterContainer">
+
+            <div class="letter-nav">
+                <button class="nav-btn active" data-page="intro">Intro</button>
+                <button class="nav-btn" data-page="counter">Our Time</button>
+               <!-- <button class="nav-btn" data-page="memories">Moments</button>-->
+                <button class="nav-btn" data-page="disclaimer">Main Body</button>
+                <button class="nav-btn" data-page="question">The Ask</button>
+
+            </div>
+
+            <div class="letter-pages">
+
+                <div class="page active" id="page-intro">
+                    <h2>My Dearest Lika,</h2>
+                    <p>Happyyy Birthdayyy! It's been a really long time knowing you and the way we came close I knew my curse would show up very soon and when it did I left GEC. But even with the curse we met and crossed paths unintentionally, that's why I always say how special you are to me.</p>
+                    <p>Click on the tabs above to turn the page...</p>
+                </div>
+
+                <div class="page" id="page-counter">
+                    <h2>The time a Stranger came and stayed...</h2>
+                    <p>Since the moment we met on 22nd July 2024 on the second floor, it's been a very long:</p>
+                    <div id="time-since-met">
+                        <span id="years">0</span> Year,
+                        <span id="days">0</span> Days,
+                        <span id="hours">0</span> Hours,
+                        <span id="minutes">0</span> Minutes,
+                        <span id="seconds">0</span> Seconds
+                    </div>
+                    <p>Total 493206 seconds (calculated using 144 IQ) I've spent with you in which every moment felt like a gift. (which reminds me where is my gift😑)</p>
+                </div>
+
+                <div class="page" id="page-memories">
+                    <h2>Treasured Moments</h2>
+                    <div class="photo-grid">
+                        <img src="IMG-20240730-WA0035~2.jpg" alt="A memory photo" width="10">
+                        <img src="IMG_20241103_131746973_HDR.jpg" alt="Another memory photo">
+                        <img src="path/to/photo3.jpg" alt="Last memory photo">
+                    </div>
+                    <p>Every moment with you is a gift (this reminds me where is my gift (-_-)).</p>
+                </div>
+               
+                <div class="page" id="page-disclaimer">
+                    <h2>Something I've Poured Out</h2>
+                    <p>The card's code was given by AI but I learned quite a lot just by seeing it and started altering it also the written part and ideas are fully by vrish. You may think I'm late which I am but I did wish you the exact moment you were born (8:30 IST as to what I remember) my main motive was to do something different which no one has done for you. The other thing why I don't write letters is because I wanna write so much but am not able to convey it properly then I start writing random thing which sometimes don't make sense but I still keep going on😅. There were few things which I wanted to know from your side, actually just one thing is enough for everything to be clear. </p>
+                    <p>I've said many times how special you are, I guess it's time for you to tell me, What do you think of me? or What am I for you? let's do a fun thing I'll give you the tasks and you complete them according to your liking<br>1)0% : Ignore this letter like you're ignoring the reels I've sent 🥲<br>2)14% : Liked your message😐<br>3)28% : Text message🙂<br>4)42% : Reply with a letter for me😃<br>5)56% : Voice call🫶<br>6)70% : Facetime🤩<br>7)85% : Plan a meetup where we both intercept🥰<br>8)100% : Somehow you spawn right in front of me💗💗<br>Don't ask me what these percentages are cause even I don't know </p>
+                </div>
+
+                <div class="page" id="page-question">
+                    <h2>The Big Question (not really but works)</h2>
+                    <p>You make my life brighter, every single day. I cherish our friendship and all the time we've spent together.</p>
+                    <div class="question-box">
+                        <p>And now, for the most important question:</p>
+                        <h3>Are you planning to go out with me?🤞</h3>
+                        <button id="yes-btn">YES!</button>
+                        <button id="no-btn">Not really...</button>
+                        <p id="response-message" class="hidden"></p>
+                    </div>
+                    <p>The answer you chose will not be known by me that's why there's the percentage thing in main body for your chosen answer</p>
+                    <p class="signature">With all my loabi,<br/>Your Vrish</p>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+    
